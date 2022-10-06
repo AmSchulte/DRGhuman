@@ -30,4 +30,6 @@ This repository contains the Python implementation for analyzing DRG tile scan i
    - used for FABP7 and IBA1 stainigs of human DRG slices
    
 5. Postprocessing:
-   - 
+   - calculate image analysis parameters (e.g. area, intensity, number of neurons) from image+mask datasets using classes in "human DRG.py" for Iba1 ("calculate_Iba1.ipynb") and SGC stainings ("calculate_SGC.ipynb")
+   - save the results as json files ("Iba1_results.json", "SGC_results.json")
+   - plot the results as boxplots or histogramm ("Iba1 results boxplot.ipynb", "SGC results boxplot.ipynb", "Histogramm Neurons.ipynb")
